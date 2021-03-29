@@ -1,0 +1,92 @@
+.nav{
+    border: 5px dashed blue;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(218, 190, 231);
+    width: 500px;
+}
+.header{
+    border: 8px dashed chocolate;
+    background-color: rgb(207, 184, 176);
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.wykres1{
+    border: 5px dashed crimson;
+    height: 2in;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(245, 240, 169);
+    padding-bottom: 2%;
+}
+.slupek{
+    width: 10%;
+    background-color: deepskyblue;
+
+}
+.s1{
+    height: 2in;
+}
+.s2{
+    height:4cm;
+}
+.s3{
+    height: 2cm;
+}
+.s4{
+    height: 1cm;
+}
+.s5{
+    height: 10px;
+}
+.wykres2{
+    border: 3px dashed coral;
+    height: 2in;
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;  
+    justify-content: space-evenly;
+   
+}
+.slpion{
+    padding-top: 0.25in; 
+
+    background-color: darkkhaki;
+    
+   
+
+}
+.sl1{
+    width: 50px;
+}
+.sl2{
+    width: 40px;
+}
+.sl3{
+    width: 20px;
+}
+.sl4{
+    width: 10px;
+}
+.em{
+    font-size: 2em;
+    float: right;
+    color: darkmagenta;
+}
+.logo{
+   background-image: url(logo_sprites.jpg);
+   width: 500px;
+   height: 200px;
+
+}
+.logo:hover{
+    background-position: 0 -200px;
+}
+.logo:active{
+    background-position: 0 -400px;
+}
