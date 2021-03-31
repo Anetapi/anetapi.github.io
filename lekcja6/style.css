@@ -1,0 +1,77 @@
+.topnav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(128, 128, 128, 0.555);
+    padding: 1%;
+}
+.topnav div{
+    background-color: rgba(128, 128, 128, 0.555);
+}
+.content{
+    border: 2px  red;
+    display: flex;
+}
+.recommend{
+    border: 2px green;
+    flex: 1;
+    
+
+}
+.recommend >p{
+    text-align: center;
+}
+.topheader{
+    text-align: center;
+}
+body{
+    background-image: url(triangular.png);
+}
+main{
+    border: 2px  blue;
+    flex: 3;
+}
+img{
+    max-width: 100%;
+}
+aside{
+    display: block;
+    border: 2px  violet;
+}
+.singleArticle{
+    border: 2pxred;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.555);
+    margin: 5px 0;
+
+}
+.commentSection{
+    border: 2pxred;
+    background-color: rgba(255, 245, 238, 0.384);
+}
+footer{
+    border: 2px d red;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    margin-top: 1%;
+   
+}
+footer a{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 2%;
+    background-color: rgba(128, 128, 128, 0.555);
+    margin: 1%;
+    color: black;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+
+@media(max-width:750px){
+
+}
