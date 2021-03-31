@@ -1,0 +1,9 @@
+
+.icon-mail:before { content: '\e800'; } /* '' */
+.icon-phone:before { content: '\e801'; } /* '' */
+.icon-bell:before { content: '\e802'; } /* '' */
+.icon-chrome:before { content: '\e841'; } /* '' */
+.icon-docs:before { content: '\f0c5'; } /* '' */
+.icon-linkedin:before { content: '\f0e1'; } /* '' */
+.icon-github:before { content: '\f113'; } /* '' */
+.icon-female:before { content: '\f182'; } /* '' */
