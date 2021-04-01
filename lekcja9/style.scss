@@ -6,9 +6,23 @@
 }
 body{
     background-color: rgb(223, 207, 207);
-
-    main{
-        @extend %centered;
+    
+        
     }
-}
-  
+    main{
+        border: 2px dashed red;
+        padding: 1%;
+        background-color: rgba(255, 248, 220, 0.404);
+        
+        
+        div{
+            border: 2px dashed blue;
+            padding: 2%;
+        }
+    }
+    footer{
+        border: 1px dashed gray;
+        padding: 1%;
+        text-align: right;
+        
+    }

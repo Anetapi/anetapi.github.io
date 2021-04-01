@@ -1,16 +1,21 @@
-body main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 body {
   background-color: #dfcfcf;
+}
+
+main {
+  border: 2px dashed red;
+  padding: 1%;
+  background-color: rgba(255, 248, 220, 0.404);
+}
+
+main div {
+  border: 2px dashed blue;
+  padding: 2%;
+}
+
+footer {
+  border: 1px dashed gray;
+  padding: 1%;
+  text-align: right;
 }
 /*# sourceMappingURL=style.css.map */
