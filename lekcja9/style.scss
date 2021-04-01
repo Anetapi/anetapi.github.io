@@ -1,0 +1,14 @@
+
+%centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: rgb(223, 207, 207);
+
+    main{
+        @extend %centered;
+    }
+}
+  

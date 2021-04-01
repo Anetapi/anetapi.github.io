@@ -18,11 +18,11 @@ body{
        
    }
   .twoCols{
-     border: 2px dashed green;
+     border: 1px solid gray;
      display: flex;
      @extend %centered;
      header{
-         border: 2px dashed blue;
+         
          flex: 2;
          padding: 2%;
          background-color: $primaryColor;
@@ -67,15 +67,20 @@ body{
 
  }
  footer {
-    border:2px dashed red;
+    border:2px solid gray;
     @extend %centered;
     padding: 2%;
     a{
-      border:2px dashed red;
-      padding: 2%;
+      border:2px solid gray;
+      padding: 3%;
       margin: 2%;
+      color: black;
+      background-color: rgba(128, 128, 128, 0.144);
     }
  
      
       
  }
+ @media(max-width:750px){
+
+}
