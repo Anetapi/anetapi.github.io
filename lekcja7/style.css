@@ -1,0 +1,110 @@
+body header, body .twoCols, body .twoCols .imgHolder, main, main div, footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+img {
+  max-width: 60%;
+}
+
+body {
+  background-color: aliceblue;
+  display: block;
+  margin: 6px;
+}
+
+body .twoCols {
+  border: 2px dashed green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .twoCols header {
+  border: 2px dashed blue;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  padding: 2%;
+  background-color: #d9e2d9;
+}
+
+body .twoCols .imgHolder {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: pink;
+  padding: 2px;
+}
+
+body .second {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+main {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main div {
+  border: 2px dashed red;
+  width: 30vw;
+  height: 30vw;
+  margin: 1vw 0;
+  background-size: cover;
+  background-position: center;
+}
+
+main div:nth-child(1) {
+  border: 3vw solid #1a1a1a;
+  background-image: url(img/d1.jpg);
+}
+
+main div:nth-child(2) {
+  border: 3vw solid #333333;
+  background-image: url(img/d2.jpg);
+}
+
+main div:nth-child(3) {
+  border: 3vw solid #4d4d4d;
+  background-image: url(img/d3.jpg);
+}
+
+main div:nth-child(4) {
+  border: 3vw solid #666666;
+  background-image: url(img/d4.jpg);
+}
+
+main div:nth-child(5) {
+  border: 3vw solid gray;
+  background-image: url(img/d5.jpg);
+}
+
+main div:nth-child(6) {
+  border: 3vw solid #999999;
+  background-image: url(img/d6.jpg);
+}
+
+footer {
+  border: 2px dashed red;
+  padding: 2%;
+}
+
+footer a {
+  border: 2px dashed red;
+  padding: 2%;
+  margin: 2%;
+}
+/*# sourceMappingURL=style.css.map */

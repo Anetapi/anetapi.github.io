@@ -1,0 +1,81 @@
+$primaryColor: #d9e2d9;
+$secondaryColor: pink;
+%centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-width: 60%;
+}
+body{
+    background-color: aliceblue;
+    display: block;
+    margin: 6px;
+   header{
+       @extend %centered;
+       
+   }
+  .twoCols{
+     border: 2px dashed green;
+     display: flex;
+     @extend %centered;
+     header{
+         border: 2px dashed blue;
+         flex: 2;
+         padding: 2%;
+         background-color: $primaryColor;
+     }
+     .imgHolder{
+         flex: 1;
+         @extend %centered;
+         background-color: $secondaryColor;
+         padding: 2px;
+     }
+    }
+    .second{
+        flex-direction: row-reverse;
+    }
+     
+    
+ }
+ main{
+     @extend %centered;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     div{
+         @extend %centered;
+         border: 2px dashed red;
+         width: 30vw;
+         height: 30vw;
+         margin: 1vw 0;
+         background-size: cover;
+         background-position: center;
+        
+     }
+     
+    
+     @for $i from 1 through 6{
+        div:nth-child(#{$i}){
+         border: 3vw solid lighten( #000000, $i* 10%);
+         background-image: url(img/d#{$i}.jpg);
+        }
+         
+         
+     }
+
+ }
+ footer {
+    border:2px dashed red;
+    @extend %centered;
+    padding: 2%;
+    a{
+      border:2px dashed red;
+      padding: 2%;
+      margin: 2%;
+    }
+ 
+     
+      
+ }
