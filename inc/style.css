@@ -1,0 +1,32 @@
+
+body{
+    background-image: url(img/fota.jpg);
+    background-size: cover;
+}
+body section{
+    border: 2px solid black;
+    padding: 3%;
+    background-color: rgba(128, 128, 128, 0.329);
+    margin-bottom: 1%;
+}
+section{
+    display: block;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+a{
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    color: black;
+
+    padding: 2%;
+   
+}
+footer{
+    text-align: end;
+    color: gray;
+}
+@media(max-width:750px){
+
+}
