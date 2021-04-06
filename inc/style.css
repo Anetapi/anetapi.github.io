@@ -14,6 +14,23 @@ section{
     margin-left: 3%;
     margin-right: 3%;
 }
+
+body section .view{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ body section .view div{
+     
+     padding: 2%;
+     flex: 1;
+     justify-content: center;
+     display: flex;
+     margin: 2%;
+     background-color: rgba(128, 128, 128, 0.199);
+ }
+   
+
 a{
     display: flex;
     justify-content: right;
