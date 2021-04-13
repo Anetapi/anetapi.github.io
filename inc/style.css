@@ -6,13 +6,14 @@ body{
 body section{
     border: 2px solid black;
     padding: 3%;
-    background-color: rgba(128, 128, 128, 0.199);
+    background-color: rgba(128, 128, 128, 0.295);
     margin-bottom: 2%;
 }
 section{
     display: block;
     margin-left: 3%;
     margin-right: 3%;
+    
     
 }
 
@@ -28,9 +29,10 @@ body section .view{
      justify-content: center;
      display: flex;
      margin: 2%;
-     background-color: rgba(128, 128, 128, 0.212);
+     background-color: rgba(128, 128, 128, 0.144);
  }
    
+ 
 
 a{
     display: flex;
@@ -42,9 +44,11 @@ a{
     padding: 2%;
    
 }
+
+
 div a{
     
-    background-color: rgba(255, 245, 238, 0.048);
+    background-color: rgba(255, 245, 238, 0.116);
     margin-right: 70%;
     
     
