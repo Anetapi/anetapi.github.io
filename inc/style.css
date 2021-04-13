@@ -13,6 +13,7 @@ section{
     display: block;
     margin-left: 3%;
     margin-right: 3%;
+    
 }
 
 body section .view{
@@ -27,7 +28,7 @@ body section .view{
      justify-content: center;
      display: flex;
      margin: 2%;
-     background-color: rgba(128, 128, 128, 0.199);
+     background-color: rgba(128, 128, 128, 0.212);
  }
    
 
