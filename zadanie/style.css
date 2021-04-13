@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 body{
     border: 2px solid black;
 }
