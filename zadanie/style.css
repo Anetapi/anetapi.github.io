@@ -7,13 +7,14 @@ body{
 .topheader{
     border: 2px solid black;
     margin: 2%;
+    display: flex;
+    justify-content: center;
  
 }
 .topheader img{
     border: 2px solid red;
     padding: 3%;
     margin: 3%;
-    margin-left: 15%;
     max-width: 60%;
     
    
